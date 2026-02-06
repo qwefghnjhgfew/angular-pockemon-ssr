@@ -1,0 +1,8 @@
+<div class="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-5 flex-wrap gap-3">
+
+ @for (pokemon of pokemons(); track pokemon.id) {
+     <pockemond-card [pokemon]="pokemon"/>
+ }   
+
+
+</div>

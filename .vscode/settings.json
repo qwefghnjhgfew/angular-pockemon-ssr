@@ -4,5 +4,11 @@
             "externalTemplate": true,
             "skipStyle": true
         }
-    }
+    },
+    "exportall.config.relExclusion": [
+        "/src/app/pockemons/interfaces/index.ts"
+    ],
+    "exportall.config.folderListener": [
+        "/src/app/pockemons/interfaces"
+    ]
 }
