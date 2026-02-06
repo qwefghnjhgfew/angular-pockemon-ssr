@@ -2,11 +2,11 @@ import { Routes } from '@angular/router';
 
 export const routes: Routes = [
   {
-    path: 'pockemons',
+    path: 'pockemons/page',
     loadComponent: () => import('./pages/pockemons/pockemons-page'),
   },
   {
-    path: 'pockemons',
+    path: 'pockemons/id',
     loadComponent: () => import('./pages/pokemo/pokemo-page'),
   },
   {
